@@ -1,9 +1,9 @@
 import React from 'react';
 import './CostItem.css'
 import {CostDate} from './CostDate';
-import {Card} from './Card';
+import {Card} from '../UI/Card';
 
-export function CostItem(props) {
+export const CostItem = (props) => {
 
     return (
         <Card className='cost-item'>

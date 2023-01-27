@@ -1,7 +1,7 @@
 import React from 'react';
 import './CostDate.css'
 
-export function CostDate(props) {
+export const CostDate = (props) => {
     const month = props.date.toLocaleDateString('ru-RU', {month: 'long'});
     const year = props.date.getFullYear();
     const day = props.date.toLocaleDateString('ru-RU', {day: '2-digit'});
